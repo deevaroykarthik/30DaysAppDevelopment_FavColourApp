@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/colourful"
+    android:layout_margin="10dp"
+    android:id="@+id/linearLayout"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/pink"
+        android:fontFamily="monospace"
+        android:background="@color/white"
+        android:text="LET'S GUESS YOUR TODAY'S COLOUR" />
+
+    <Button
+        android:id="@+id/btnsweet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/black"
+        android:text="I'M SWEETEST" />
+
+    <Button
+        android:id="@+id/btnlove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/black"
+        android:text="I'M LOVING" />
+
+    <Button
+        android:id="@+id/btnablaze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:text="I'M ABLAZE" />
+
+    <Button
+        android:id="@+id/btnbright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:backgroundTint="@color/black"
+        android:text="I'M BRIGHT" />
+
+    <Button
+        android:id="@+id/btnpure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:text="I'M PURE" />
+
+    <Button
+        android:id="@+id/btnvivid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:text="I'M VIVID" />
+</LinearLayout>
